@@ -5,6 +5,7 @@ description = "Default template for PDM package"
 authors = [
     {name = "yusuf n", email = "yusufnurm@gmail.com"},
 ]
+package-mode = false
 dependencies = ["streamlit>=1.52.1", "scikit-learn>=1.8.0", "opencv-python>=4.12.0.88", "matplotlib>=3.10.8", "seaborn>=0.13.2", "pandas>=2.3.3", "joblib>=1.5.2", "scikit-image>=0.25.2", "pillow>=12.0.0"]
 requires-python = ">=3.12"
 readme = "README.md"
